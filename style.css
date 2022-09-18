@@ -9,3 +9,10 @@
 .border-bottom-dotted {
     border-bottom-style: dotted !important;
 }
+
+@media (max-width: 425px) {
+    .container-logo {
+        width: 100%;
+        text-align: center;
+    }
+}
