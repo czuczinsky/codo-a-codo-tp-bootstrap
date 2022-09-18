@@ -5,3 +5,7 @@
     background-size: cover;
     height: 500px;
 }
+
+.border-bottom-dotted {
+    border-bottom-style: dotted !important;
+}
