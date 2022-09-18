@@ -10,7 +10,7 @@
     border-bottom-style: dotted !important;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 575.98px) {
     .container-logo {
         width: 100%;
         text-align: center;
