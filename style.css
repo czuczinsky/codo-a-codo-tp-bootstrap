@@ -16,3 +16,7 @@
         text-align: center;
     }
 }
+
+footer {
+    background-image: linear-gradient(to bottom right, rgba(28, 54, 67, 255), rgba(30, 83, 114, 255));
+}
