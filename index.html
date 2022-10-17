@@ -83,8 +83,8 @@
                         Te
                         esperamos!
                     </p>
-                    <button class="btn btn-outline-light fw-bolder m-2">Quiero ser orador</button>
-                    <button class="btn btn-success fw-bolder m-2">Comprar tickets</button>
+                    <a href="#contact" class="btn btn-outline-light fw-bolder m-2">Quiero ser orador</a>
+                    <a href="#buy-tickets" class="btn btn-success fw-bolder m-2">Comprar tickets</a>
                 </div>
             </div>
         </div>
@@ -195,7 +195,7 @@
                             ignite</span>. Cuéntanos de qué quieres hablar!
                     </p>
                 </div>
-                <form>
+                <form id="form-contact">
                     <div class="row my-2">
                         <div class="col">
                             <input class="form-control" type="text" name="name" id="name" placeholder="Nombre">
@@ -217,6 +217,8 @@
                         </div>
                     </div>
                 </form>
+                <div id="alert">
+                </div>
             </div>
         </div>
         <div class="container my-5">
@@ -261,7 +263,8 @@
                     <div class="row my-2">
                         <div class="col">
                             <label class="form-label" for="qty">Cantidad</label>
-                            <input required class="form-control" type="number" name="qty" id="qty" placeholder="Cantidad">
+                            <input required class="form-control" type="number" name="qty" id="qty"
+                                placeholder="Cantidad" min="1">
                         </div>
                         <div class="col">
                             <label class="form-label" for="category">Categoria</label>
