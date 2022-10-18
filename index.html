@@ -196,11 +196,11 @@
                     </p>
                 </div>
                 <form id="form-contact">
-                    <div class="row my-2">
-                        <div class="col">
+                    <div class="row my-2 g-2">
+                        <div class="col-md-6">
                             <input class="form-control" type="text" name="name" id="name" placeholder="Nombre">
                         </div>
-                        <div class="col">
+                        <div class="col-md-6">
                             <input class="form-control" type="text" name="surname" id="surname" placeholder="Apellido">
                         </div>
                     </div>
@@ -227,46 +227,52 @@
         <div class="container" id="buy-tickets">
             <div class="w-75 m-auto">
                 <h2 class="text-center fs-1 mb-5">COMPRAR TICKETS</h2>
-                <div class="mx-5 row text-center gap-2">
-                    <div class="col border border-primary py-3">
-                        <p class="fs-3">Estudiante</p>
-                        <p>Tienen un descuento</p>
-                        <p class="fw-bold">80%</p>
-                        <p class="text-muted">* presentar documentación</p>
+                <div class="row g-1 g-lg-2 text-center mx-5">
+                    <div class="col-lg-4">
+                        <div class="border border-primary py-3">
+                            <p class="fs-3">Estudiante</p>
+                            <p>Tienen un descuento</p>
+                            <p class="fw-bold">80%</p>
+                            <p class="text-muted">* presentar documentación</p>
+                        </div>
                     </div>
-                    <div class="col border border-success py-3">
-                        <p class="fs-3">Trainee</p>
-                        <p>Tienen un descuento</p>
-                        <p class="fw-bold">50%</p>
-                        <p class="text-muted">* presentar documentación</p>
+                    <div class="col-lg-4">
+                        <div class="border border-success py-3">
+                            <p class="fs-3">Trainee</p>
+                            <p>Tienen un descuento</p>
+                            <p class="fw-bold">50%</p>
+                            <p class="text-muted">* presentar documentación</p>
+                        </div>
                     </div>
-                    <div class="col border border-warning py-3">
-                        <p class="fs-3">Junior</p>
-                        <p>Tienen un descuento</p>
-                        <p class="fw-bold">15%</p>
-                        <p class="text-muted">* presentar documentación</p>
+                    <div class="col-lg-4">
+                        <div class="border border-warning py-3">
+                            <p class="fs-3">Junior</p>
+                            <p>Tienen un descuento</p>
+                            <p class="fw-bold">15%</p>
+                            <p class="text-muted">* presentar documentación</p>
+                        </div>
                     </div>
                 </div>
                 <p class="fw-light fs-6 text-center mt-2 mb-0">VENTA</p>
                 <h2 class="text-center fs-1">VALOR TICKET $200</h2>
                 <form class="needs-validation" id="form-buy-tickets" novalidate>
-                    <div class="row my-2">
-                        <div class="col">
+                    <div class="row my-2 g-2">
+                        <div class="col-md-6">
                             <input required class="form-control" type="text" name="name" id="name" placeholder="Nombre">
                         </div>
-                        <div class="col">
+                        <div class="col-md-6">
                             <input required class="form-control" type="text" name="surname" id="surname"
                                 placeholder="Apellido">
                         </div>
                     </div>
                     <input required class="form-control" type="email" name="email" id="email" placeholder="Correo">
-                    <div class="row my-2">
-                        <div class="col">
+                    <div class="row my-2 g-2">
+                        <div class="col-md-6">
                             <label class="form-label" for="qty">Cantidad</label>
                             <input required class="form-control" type="number" name="qty" id="qty"
                                 placeholder="Cantidad" min="1">
                         </div>
-                        <div class="col">
+                        <div class="col-md-6">
                             <label class="form-label" for="category">Categoria</label>
                             <select required class="form-select" id="category">
                                 <option selected disabled value="">Seleccionar categoria</option>
@@ -282,11 +288,11 @@
                                 type="text" name="price" id="price" value="Total a Pagar: $">
                         </div>
                     </div>
-                    <div class="row my-2">
-                        <div class="col">
+                    <div class="row my-2 g-2">
+                        <div class="col-md-6">
                             <button class="btn btn-success w-100" type="reset" id="borrar">Borrar</button>
                         </div>
-                        <div class="col">
+                        <div class="col-md-6">
                             <button class="btn btn-success w-100" type="submit" id="summary">Resumen</button>
                         </div>
                     </div>
@@ -295,7 +301,7 @@
         </div>
     </main>
 
-    <footer class="container-fluid text-center mt-3 py-4">
+    <footer class="container-fluid text-center mt-5 py-4">
         <div class="container">
             <div class="row g-2 align-items-center">
                 <div class="col-lg">
